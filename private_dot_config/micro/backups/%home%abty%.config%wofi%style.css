@@ -1,0 +1,45 @@
+@define-color pink #DA627D;
+@define-color purpie #483591;
+@define-color neonblue #51E1EC;
+@define-color lightblue #409BEE;
+@define-color orange #FE5D53;
+@define-color purple #5D6ACF;
+
+*{
+    font-family: Hack;
+}
+
+window {
+    border: 1px solid @pink;
+    margin: 0px 5px 0px 5px;
+}
+
+#outer-box {
+    margin: 1px;
+    padding:15px;
+    background-color: black;
+}
+
+#input {
+    margin-bottom: 15px;
+    padding:3px;
+    border-radius: 5px;
+    border: 1px solid @pink;
+    background-color: @purpie;
+    color: white;
+}
+
+#inner-box {
+    background-color: black;
+}
+
+
+#text {
+    padding: 5px;
+    color: white;
+}
+
+
+#entry:selected {
+    background-color: @pink;
+}
